@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hunnybunz | Spontaneous Dating</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+font-family:Arial,sans-serif;
+color:#222;
+background:#fff;
+line-height:1.6;
+}
+header{
+padding:20px 6%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #eee;
+}
+.logo{
+font-family:cursive;
+font-size:42px;
+color:#d71920;
+font-weight:bold;
+}
+nav a{
+margin:0 15px;
+color:#222;
+text-decoration:none;
+font-weight:bold;
+}
+.hero{
+padding:60px 6%;
+display:grid;
+grid-template-columns:1fr 1.2fr;
+gap:35px;
+align-items:center;
+background:linear-gradient(120deg,#fff,#fff5f5);
+}
+.hero h1{
+font-family:Georgia,serif;
+font-size:70px;
+color:#b51218;
+}
+.hero h2{
+font-family:cursive;
+font-size:38px;
+color:#d71920;
+}
+.hero p{margin:25px 0;font-size:18px}
+.hero img{
+width:100%;
+border-radius:25px;
+box-shadow:0 10px 30px #bbb;
+}
+.section{padding:45px 6%}
+.title{
+text-align:center;
+color:#b51218;
+font-family:Georgia,serif;
+font-size:38px;
+margin-bottom:30px;
+}
+.location{
+text-align:center;
+background:#fff0f0;
+padding:22px;
+color:#b51218;
+font-size:21px;
+font-weight:bold;
+}
+.steps{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:15px;
+text-align:center;
+}
+.step{
+padding:20px 10px;
+border:1px solid #f1b0b0;
+border-radius:18px;
+}
+.step span{font-size:35px}
+.step h3{color:#b51218;margin:10px 0}
+.content{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px;
+}
+.card{
+padding:30px;
+border:1px solid #f0b2b2;
+border-radius:20px;
+background:#fffafa;
+}
+.card h2{color:#b51218;margin-bottom:18px}
+.card li{margin:10px 0;list-style:none}
+.requirements{
+background:#fff5f5;
+}
+.requirements li strong{color:#b51218}
+.bottom{
+text-align:center;
+padding:55px 20px;
+background:#b51218;
+color:white;
+}
+.button{
+display:inline-block;
+background:#d71920;
+color:white;
+padding:15px 35px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+margin-top:15px;
+}
+.bottom .button{
+background:white;
+color:#b51218;
+}
+footer{
+text-align:center;
+padding:30px;
+font-size:14px;
+}
+@media(max-width:800px){
+.hero,.content{grid-template-columns:1fr}
+.steps{grid-template-columns:1fr 1fr}
+.hero h1{font-size:48px}
+nav{display:none}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Hunnybunz</div>
+<nav>
+<a href="#home">HOME</a>
+<a href="#how">HOW IT WORKS</a>
+<a href="#requirements">REQUIREMENTS</a>
+<a href="#contact">CONTACT</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div>
+<h1>HUNNYBUNZ</h1>
+<h2>Spontaneous Dating<br>While Catching a Real Vibe</h2>
+<p>
+A curated matchmaking experience where meaningful introductions
+come first. Choose from a selection of women and discover a real connection.
+</p>
+</div>
+
+<img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1000&q=80"
+alt="Golden honey dessert">
+</section>
+
+<div class="location">
+📍 First dates take place in Rochester, MN and surrounding cities.
+</div>
+
+<section class="section" id="how">
+<h2 class="title">❤️ HOW IT WORKS ❤️</h2>
+
+<div class="steps">
+<div class="step">
+<span>👤</span>
+<h3>1. APPLY</h3>
+<p>Tell us about yourself.</p>
+</div>
+
+<div class="step">
+<span>📋</span>
+<h3>2. REVIEW</h3>
+<p>Our Matchmaker Team reviews your profile.</p>
+</div>
+
+<div class="step">
+<span>👩</span>
+<h3>3. YOU CHOOSE</h3>
+<p>Choose from your selection of up to 10 women.</p>
+</div>
+
+<div class="step">
+<span>❤️</span>
+<h3>4. MUTUAL ACCEPTANCE</h3>
+<p>Both people decide whether to accept.</p>
+</div>
+
+<div class="step">
+<span>🥂</span>
+<h3>5. DATE CONFIRMED</h3>
+<p>Your date is confirmed after mutual acceptance.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="content">
+
+<div class="card">
+<h2>Why Join Hunnybunz?</h2>
+<ul>
+<li>❤️ Choose from a selection of up to 10 women</li>
+<li>❤️ Quality women handpicked for you</li>
+<li>❤️ Meaningful introductions</li>
+<li>❤️ Hunnybunz Team chooses the first-date location</li>
+<li>❤️ Verified members</li>
+<li>❤️ No games. Just real connections.</li>
+</ul>
+</div>
+
+<div class="card requirements" id="requirements">
+<h2>❤️ Requirements</h2>
+<ul>
+<li><strong>$75 Deposit:</strong> Required to confirm your date.</li>
+<li><strong>$20 Late Fee:</strong> Applies after 15 minutes.</li>
+<li><strong>First-Date Location:</strong> Hunnybunz Team chooses the location in Rochester or surrounding cities.</li>
+<li><strong>Extended Date — $50:</strong> Extending the date or adding another place to hang out requires a $50 fee with mutual agreement.</li>
+<li><strong>Respect:</strong> Be kind and respectful.</li>
+<li><strong>Honesty:</strong> Keep your profile and intentions truthful.</li>
+<li><strong>Mutual Acceptance:</strong> Both participants must accept before a date is confirmed.</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section class="bottom" id="contact">
+<h2>READY TO FIND YOUR SWEET MATCH?</h2>
+<p>Life is sweeter when shared. ❤️</p>
+
+<a class="button" href="#">
+APPLY AS A MAN — JOIN HUNNYBUNZ
+</a>
+
+<p style="margin-top:20px">
+🔒 Secure &nbsp; ❤️ Respectful Community &nbsp; ✓ Verified Members
+</p>
+</section>
+
+<footer>
+<div class="logo">Hunnybunz</div>
+<p>Privacy Policy &nbsp; | &nbsp; Terms of Service &nbsp; | &nbsp; Community Guidelines</p>
+<p>Every Sweet Match is based on mutual choice.</p>
+<p>© 2026 Hunnybunz. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
